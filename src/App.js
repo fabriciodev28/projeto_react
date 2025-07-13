@@ -1,17 +1,17 @@
 import './App.css'
-import HelloWorld from './components/HelloWorld'
+import Pessoa from './components/Pessoa'
+import Frase from './components/Frase';
 
 function App() {
-
-  const name = 'Fabricio'
-
 
   return (
     <div className="App">
       <h1>React!</h1>
       <p>My first React Project</p>
-      <p>Olá, {name}</p>
-      <HelloWorld/>
+      <Pessoa name="Fabricio" idade="22" profissao="programador"/>
+      <Frase/>
+      <Frase/>
+      <Frase/>
     </div>
   );
 }
