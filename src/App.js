@@ -1,6 +1,7 @@
 import './App.css'
 import Pessoa from './components/Pessoa'
-import Frase from './components/Frase';
+import Frase from './components/Frase'
+import List from './components/List';
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Frase/>
       <Frase/>
       <Frase/>
+      <List/>
     </div>
   );
 }
